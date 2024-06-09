@@ -14,17 +14,33 @@ Friends List: View a list of users who have accepted friend requests.
 Pending Requests: List all received friend requests.
 Rate Limiting: Users can send a maximum of 3 friend requests per minute.
 
+
+
 Project Components
+
 Django Models: Define the user, friend requests, and other necessary models.
+
 Django Views: Handle API requests and responses for user interactions.
+
 Django URLs: Route URLs to the appropriate views.
+
 Authentication: Implement token-based authentication for secure access.
+
 Throttling: Apply rate limiting to control the frequency of friend requests.
+
 Docker: Containerize the application for easy deployment.
 
+
+
 Setup Instructions
+
 Clone the repository.
+
 Install dependencies using pip install -r requirements.txt.
+
 Set up the database and run migrations.
+
 Start the Django development server.
+
 Use the provided Postman collection to test API endpoints.
+
